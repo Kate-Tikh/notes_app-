@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "ArchitectsDaughter-Regular";
+    src: url("ArchitectsDaughter-Regular.ttf");
+}
+body {
+    background: #f5deb0;
+    font-family: "ArchitectsDaughter-Regular", sans-serif;
+    font-size: 24px;
+    }
+.main-container {
+    width: 95%;
+    margin:0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.btn {
+    width: 174px;
+    height: 42px;
+}
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.container3 {
+    display: none;
+    position: absolute;
+    top: 26%;
+    left: 35%;
+}
+textarea {
+    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px;
+    font-family: Architects Daughter;
+}
+svg {
+    color: rgba(47, 0, 14, 0.64);
+
+}
+#check-icon {
+    position: absolute;
+    right: 16%;
+    top: 7%;
+}
+#x-icon {
+    position: absolute;
+    right: 5%;
+    top: 7%;
+}
